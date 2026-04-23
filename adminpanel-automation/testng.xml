@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AdminPanel Suite" parallel="false" thread-count="2">
+    <listeners>
+        <listener class-name="com.adminpanel.listeners.TestListener"/>
+    </listeners>
+
+    <test name="AdminPanel Tests">
+        <classes>
+            <class name="com.adminpanel.tests.FormTest"/>
+            <class name="com.adminpanel.tests.TableTest"/>
+            <class name="com.adminpanel.tests.AlertTest"/>
+            <class name="com.adminpanel.tests.DynamicTest"/>
+            <class name="com.adminpanel.tests.FrameTest"/>
+        </classes>
+    </test>
+</suite>

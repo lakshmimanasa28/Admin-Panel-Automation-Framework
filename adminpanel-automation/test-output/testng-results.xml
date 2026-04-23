@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-23T20:23:55 IST" name="AdminPanel Suite" finished-at="2026-04-23T20:25:54 IST" duration-ms="118688">
+    <groups>
+    </groups>
+    <test started-at="2026-04-23T20:23:55 IST" name="AdminPanel Tests" finished-at="2026-04-23T20:25:54 IST" duration-ms="118688">
+      <class name="com.adminpanel.tests.DynamicTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:13 IST" name="setUp" finished-at="2026-04-23T20:25:19 IST" duration-ms="6062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDynamicButtonClick()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:19 IST" name="testDynamicButtonClick" finished-at="2026-04-23T20:25:26 IST" duration-ms="6860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicButtonClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:26 IST" name="tearDown" finished-at="2026-04-23T20:25:26 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:26 IST" name="setUp" finished-at="2026-04-23T20:25:33 IST" duration-ms="6719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSecondClick()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:33 IST" name="testSecondClick" finished-at="2026-04-23T20:25:40 IST" duration-ms="6539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.DynamicTest@72d6b3ba]" started-at="2026-04-23T20:25:40 IST" name="tearDown" finished-at="2026-04-23T20:25:43 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adminpanel.tests.DynamicTest -->
+      <class name="com.adminpanel.tests.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:23:56 IST" name="setUp" finished-at="2026-04-23T20:24:00 IST" duration-ms="4282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBasicForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:24:00 IST" name="testBasicForm" data-provider="formData" finished-at="2026-04-23T20:24:09 IST" duration-ms="9187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hello world]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:24:09 IST" name="tearDown" finished-at="2026-04-23T20:24:14 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:24:14 IST" name="setUp" finished-at="2026-04-23T20:24:18 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBasicForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:24:18 IST" name="testBasicForm" data-provider="formData" finished-at="2026-04-23T20:24:28 IST" duration-ms="10016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.FormTest@5f9edf14]" started-at="2026-04-23T20:24:28 IST" name="tearDown" finished-at="2026-04-23T20:24:28 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adminpanel.tests.FormTest -->
+      <class name="com.adminpanel.tests.FrameTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.FrameTest@1787f2a0]" started-at="2026-04-23T20:25:43 IST" name="setUp" finished-at="2026-04-23T20:25:46 IST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFrames()[pri:0, instance:com.adminpanel.tests.FrameTest@1787f2a0]" started-at="2026-04-23T20:25:46 IST" name="testFrames" finished-at="2026-04-23T20:25:53 IST" duration-ms="7407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.FrameTest@1787f2a0]" started-at="2026-04-23T20:25:53 IST" name="tearDown" finished-at="2026-04-23T20:25:54 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adminpanel.tests.FrameTest -->
+      <class name="com.adminpanel.tests.TableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:28 IST" name="setUp" finished-at="2026-04-23T20:24:31 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortableTable()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:31 IST" name="testSortableTable" finished-at="2026-04-23T20:24:37 IST" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortableTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:37 IST" name="tearDown" finished-at="2026-04-23T20:24:37 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:37 IST" name="setUp" finished-at="2026-04-23T20:24:41 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTableData()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:41 IST" name="testTableData" finished-at="2026-04-23T20:24:46 IST" duration-ms="5184" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Table is empty expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Table is empty expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.adminpanel.tests.TableTest.testTableData(TableTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.TableTest@13df2a8c]" started-at="2026-04-23T20:24:47 IST" name="tearDown" finished-at="2026-04-23T20:24:51 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adminpanel.tests.TableTest -->
+      <class name="com.adminpanel.tests.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:24:51 IST" name="setUp" finished-at="2026-04-23T20:24:56 IST" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAlertAccept()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:24:56 IST" name="testAlertAccept" finished-at="2026-04-23T20:25:03 IST" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertAccept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:25:03 IST" name="tearDown" finished-at="2026-04-23T20:25:04 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:25:04 IST" name="setUp" finished-at="2026-04-23T20:25:06 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConfirmDismiss()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:25:06 IST" name="testConfirmDismiss" finished-at="2026-04-23T20:25:13 IST" duration-ms="6950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmDismiss -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adminpanel.tests.AlertTest@1ebea008]" started-at="2026-04-23T20:25:13 IST" name="tearDown" finished-at="2026-04-23T20:25:13 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adminpanel.tests.AlertTest -->
+    </test> <!-- AdminPanel Tests -->
+  </suite> <!-- AdminPanel Suite -->
+</testng-results>
